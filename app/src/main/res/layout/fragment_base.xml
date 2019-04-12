@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fragmentbackground"
+    >
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="100dp"
+        android:fontFamily="sans-serif-thin"
+        android:text="Explore!"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Light.SearchResult.Subtitle"
+        android:textColor="@android:color/secondary_text_dark"
+        android:textSize="90dp" />
+
+
+    <Button
+        android:id="@+id/weather"
+        style="@android:style/Widget.Holo.Button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="111dp"
+        android:layout_marginTop="200dp"
+        android:fontFamily="sans-serif-thin"
+        android:onClick="weather"
+        android:text="Weather"
+        android:textSize="40dp" />
+
+    <Button
+        android:id="@+id/watch"
+        style="@android:style/Widget.Holo.Button"
+        android:layout_width="match_parent"
+        android:layout_height="74dp"
+        android:layout_alignBottom="@+id/weather"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="111dp"
+        android:layout_marginTop="400dp"
+        android:layout_marginBottom="-101dp"
+        android:fontFamily="sans-serif-thin"
+        android:onClick="watch"
+        android:text="Watch"
+        android:textSize="40dp" />
+</RelativeLayout>
